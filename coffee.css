@@ -1,0 +1,354 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* this is for the header*/
+header {
+    background-image: url(sergey-kotenev-KU7PjmjArlQ-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    color: white;
+    display: column;
+    padding: 0 60px;
+    padding-top: 30px;
+}
+header h3 {
+    font-family: "playfair Display", serif;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    position: fixed;
+    width: 100%;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    text-decoration: none;
+    list-style: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.welcome {
+    padding-top: 100px;
+}
+.welcome h1 {
+    font-family: "playfair Display", serif;
+    font-size: 60px;
+}
+.welcome button {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    width: 8%;
+    color: black;
+    cursor: pointer;
+}
+/* for the first section */
+.first-section {
+    background-color: burlywood;
+    height: 25vh;
+    padding: 30px;
+}
+.grids {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.grid {
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    text-align: center;
+    align-items: center;
+}
+.icons {
+    display: column;
+    background-color: burlywood;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 120px;
+}
+.icons p {
+    font-family: 'Times New Roman', Times, serif;
+    color: 2px solid black;
+}
+/* section-section */
+.second-section {
+    padding: 0 45px;
+    margin-top: 50px;
+}
+.coffee {
+    color: rgb(27, 27, 27);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 3rem;
+    padding-top: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cards {
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    width: auto;
+}
+.card img {
+   width: 300px;
+   height: 300px;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   border-radius: 8px;
+}
+.card {
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: burlywood;
+    padding: 7px 7px;
+    border-radius: 8px;
+    border: rgb(80, 38, 38);
+}
+.card h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 10px 0px;
+    color: rgb(44, 2, 2);
+}
+.card p {
+    color: rgb(80, 27, 27)
+}
+.amounts {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+}
+.amount b {
+    color: rgb(44, 2, 2);
+}
+.amount button {
+    background-color: rgb(44, 2, 2);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* the third section */
+
+.third-section {
+    padding: 0 45px;
+    margin-top: 50px;
+}
+.third-section h3 {
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3rem;
+    font-size: 25px;
+    color: rgb(44, 2, 2);
+}
+
+/* The fourth-section */
+
+.fourth-section {
+    background-color: burlywood;
+    width: 105%;
+    height: 280px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.left-img {
+    width: 187px;
+}
+.right-img {
+    width: 400px;
+    height:280px;
+    align-items: right;
+    justify-content: right;
+}
+.best {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.best h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    text-align: left;
+}
+.best button {
+    background-color: rgb(44, 2, 2);
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    width: 15%;
+    width: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+/* Fifth-section */
+
+
+.come-and-join p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 2, 2);
+    font-size: 20px;
+}
+.come-and-join h3 {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(7/8, 23, 23);
+    font-size: 25px;
+}
+.come-and-join {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+}
+.blocks {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.block {
+    width: 350px;
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 10px;
+}
+.stars {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.stars i {
+    color: gold;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    align-items: center;
+}
+.stars img {
+    border-radius: 50px;
+    width: 15%;
+}
+
+/* Sixth-section */
+
+.sixth-section {
+    background-color: burlywood;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+}
+.sixth-section img {
+    width: 300px;
+    height: 270px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 58px;
+}
+.discount {
+    padding-top: 40px;
+}
+.discount h3 {
+    color: rgb(44, 2, 2);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.discount p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    padding-top: 9px;
+    color: rgb(44, 2, 2);
+}
+.the-form {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+    gap: 1rem;
+}
+.email input {
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    width: 250px;
+}
+.email input::placeholder {
+    color: rgb(44, 2, 2);
+    padding-left: 10px;
+    font-size: 0.8rem;
+}
+.suscribe button{
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    width: 150px;
+    background-color: rgb(44, 2, 2);
+    color: white;
+    cursor: pointer;
+}
+
+/* footer */
+
+
+footer {
+    background-color: rgb(44, 2, 2);
+    height: 40vh;
+}
+.columns {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    padding-top: 75px;
+}
+.column {
+    color: white;
+}
+.column h4 {
+    padding-bottom: 10px;
+}
+.column h4 p {
+    padding-bottom: 10px;
+}
+.column p {
+    padding-bottom: 10px;
+}
+.column h3 {
+    padding-bottom: 10px;
+}
+.socials {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
